@@ -1,3 +1,6 @@
+*{
+    font-family: Arial;
+}
 body{
    margin: 0;
    padding: 0;
@@ -42,7 +45,6 @@ nav a{
     text-decoration: none;
     text-transform: uppercase;
     color: #727272;
-    font-family: Arial, Helvetica, sans-serif;
 
 }
 nav .active a,
@@ -52,8 +54,85 @@ nav a:hover  {
 }
 
 #banner{
-    background-image: url('../images/banner.jfif');
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/banner1.jfif');
     background-position: center;
     background-size: cover;
     height: 800px;
 }
+.column{
+    flex-direction: column;
+    
+}
+.banner_headline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    
+}
+.banner_headline h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 0px 2px 0px black;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+.banner_headline h2{
+    color: white;
+    font-size: 25px;
+    text-shadow: 0px 2px 0px black;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+}
+.banner_options{
+    height: 250px;
+    display: flex;
+}
+.sub-banner1,
+.sub-banner2,
+.sub-banner3{
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+.sub-banner1{
+    background-color: #f8c291;
+}
+.sub-banner2{
+    background-color: #e55039;
+}
+.sub-banner3{
+    background-color: #eb2f06;
+}
+.banner-title{
+    font-size: 22px;
+}
+.banner-desc{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner_options a {
+    border:  1px solid white;
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.hours{
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.hours p{
+    font-size: 13px;
+    display: flex;
+}
+
