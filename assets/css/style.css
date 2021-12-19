@@ -50,3 +50,10 @@ nav a:hover  {
     background-color: #e74c3c;
     color: white;
 }
+
+#banner{
+    background-image: url('../images/banner.jfif');
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
