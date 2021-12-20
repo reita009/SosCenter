@@ -5,6 +5,18 @@ body{
    margin: 0;
    padding: 0;
 }
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+article a{
+    text-decoration: none;
+}
 header{
     display: flex;
     justify-content:center;
@@ -159,6 +171,7 @@ nav a:hover  {
     height: 3px;
     background-color: #e55039;
     margin-top: 10px;
+    margin-bottom: 30px;
 }
 .widget-body{
     display: flex;
@@ -187,4 +200,38 @@ nav a:hover  {
 .contact span{
     font-size: 20px;
     font-weight: bolder;
+}
+.news-data{
+    display: flex;
+}
+.new-posted-at{
+    background-color:#eb2f06 ;
+    padding: 10px;
+    font-size: 13px;
+    color: white;
+    margin-right: 4px;
+}
+.news-comments{
+    background-color:#e55039 ;
+    padding: 10px;
+    font-size: 13px;
+    color: white;
+}
+.news-thumbnail{
+    padding-top: 30px;
+}
+.news-thumbnail img{
+    height: auto;
+    width: 100%;
+}
+.news-title{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 25px;
+}
+.news-resume{
+    font-size: 14px;
+    color: #5c5c5c;
+    line-height: 20px;
+    margin-bottom: 30px;
 }
