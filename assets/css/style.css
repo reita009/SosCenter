@@ -135,4 +135,56 @@ nav a:hover  {
     font-size: 13px;
     display: flex;
 }
+#geral{
+    display: flex;
+    justify-content: center;
+}
+#geral section{
+    flex: 2;
+}
+#geral aside{
+    flex: 1;
+}
+.widget-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget-title-text{
+    font-size: 21px;
+    color: black;
+    font-weight: bolder;
+}
+.widget-title-bar{
+    width: 50px;
+    height: 3px;
+    background-color: #e55039;
+    margin-top: 10px;
+}
+.widget-body{
+    display: flex;
+    
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color:  #e55039;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+.widget-title-desc{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.contact{
+    display:flex;
+    
+}
+.contact img{
+    width: 45px;
+    margin-right: 10px;
 
+}
+.contact span{
+    font-size: 20px;
+    font-weight: bolder;
+}
