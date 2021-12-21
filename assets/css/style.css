@@ -5,6 +5,9 @@ body{
    margin: 0;
    padding: 0;
 }
+.flex-column{
+    flex-direction: column;
+}
 .flex{
     display: flex;
     flex-wrap: wrap;
@@ -234,4 +237,69 @@ nav a:hover  {
     color: #5c5c5c;
     line-height: 20px;
     margin-bottom: 30px;
+}
+
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+.footer-menu{
+    display: flex;
+  
+   
+}
+.fm1,.fm2,.fm3{
+    flex: 1;
+    color: white;
+    padding: 20px;
+}
+.fm1{
+    background-color: #f8c291;
+}
+.fm2{
+    background-color: #e55039;
+}
+.fm3{
+    background-color: #eb2f06;
+}
+.fm h3{
+    font-size: 30px;
+}
+.fm p{
+    font-size: 15px;
+}
+.footer-field{
+    display: flex;
+    color: white;
+}
+
+.field-1,.field-2,.field-3{
+    flex: 1;
+}
+footer .widget-title-text{
+    color: white;
+}
+.footer-copy{
+    color: white;
+    border-top: #2c2c2c solid 1px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.list-field li{
+ margin-bottom: 20px;
+ margin-right: 10px
+}
+.list-field .lil{
+    margin-top: 20px;
+}
+.list-field a{
+    font-size: 18px;
+    font-weight: bolder;
+    color:#eb2f06 ;
+    text-decoration: none;
+    margin-top: 55px;
 }
